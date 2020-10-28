@@ -4,3 +4,4 @@ cache.db
 uglifycache.db
 js/game/*
 dist/
+build/
