@@ -15,6 +15,6 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "prod": "rm -rf build && tsc --project . && node ./build/surena.js"
+    "prod": "node CalculateDeps.js && rm -rf build && tsc --project . && node ./build/surena.js"
   }
 }
